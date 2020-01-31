@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="lockscreen_low_battery">Connect your charger.</string>
+    <string name="app_name">Battery Shutdown Manager</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="d_disable_shutdown">Are you sure?</string>
+    <string name="d_disable_shutdown_summary">"This option will completely disable the critical battery shutdown of your device. The device will turn off once the battery has been drained completely. You should only use this when you know what you're doing (e.g. with a broken battery or as a one-time battery calibration)! This can harm your device, you've been warned!
+
+Are you sure you want to enable this option?"</string>
+    <string name="d_expired">Beta Expired</string>
+    <string name="d_expired_message">This beta expired. Please update to the newest version.</string>
+    <string name="d_first_run">Welcome!</string>
+    <string name="d_first_run_description">"You installed the Battery Shutdown Manager module! This app does require Xposed to work, please make sure that the module is activated in the Xposed Installer and you did a reboot.
+
+If you encounter any bugs or have suggestions please contact me before leaving a bad review at the Google Play Store and I'll try to sort it out. It's impossible to test an app on all devices out there so incompatibilities on some devices aren't anything uncommon, but I'll do my best to fix them."</string>
+    <string name="d_freeload">Freeload</string>
+    <string name="d_freeload_text">"I'm offering the freeload option as I don't want to force anyone to buy Pro who can't afford it or just wants to test the functionality.
+
+Would be great if you decide to purchase Pro at a later stage to support development :)"</string>
+    <string name="d_more_info">More Info</string>
+    <string name="d_no_xposed">Xposed Installer missing</string>
+    <string name="d_no_xposed_description">"This is an Xposed module which requires the Xposed Framework to work (root required!). It appears as if this device does not run Xposed so this app won't work.
+
+Click the \"MORE INFO\" button to open instructions on how to obtain Xposed."</string>
+    <string name="d_rate_me">Rate me!</string>
+    <string name="d_shutdown_disabled_dismiss">Dismiss</string>
+    <string name="d_shutdown_disabled_long">The Battery Shutdown Manager prevented your device to shutdown. This can harm your device!</string>
+    <string name="d_shutdown_disabled_summary">Battery Shutdown Manager prevented a shutdown due to critical battery level</string>
+    <string name="d_shutdown_disabled_title">Blocked Shutdown: %1$s</string>
+    <string name="d_update">Update</string>
+    <string name="d_xposed_hook_failed">Incompatible ROM</string>
+    <string name="d_xposed_hook_failed_description">"Unfortunately the Xposed hook failed, it appears as if your ROM is not (yet) supported due to the vendor changing the standard shutdown method. This module works with AOSP and most Custom ROMs, if you want support for your ROM added please contact the dev at XDA, G+ or via Email. 
+
+Click the \"MORE INFO\" button to open the XDA support thread."</string>
+    <string name="pref_about">About</string>
+    <string name="pref_about_gplus_summary">Click to follow +thetonyp on Google Plus</string>
+    <string name="pref_about_gplus_title">Follow me on G+</string>
+    <string name="pref_about_summary">"Copyright © 2015 - tonyp 
+G+: http://google.com/+thetonyp 
+Tap to view my other apps!"</string>
+    <string name="pref_about_title_v">v%1$s</string>
+    <string name="pref_attention_installer_missing">Xposed Installer not found! This app needs the Xposed framework to work!</string>
+    <string name="pref_attention_module_hook_failed">Unfortunately the Xposed hook failed, it appears as if your ROM is not supported. This module works with AOSP and most Custom ROMs. If you want support for your ROM added please contact the dev at XDA, G+ or via Email.</string>
+    <string name="pref_attention_module_not_active">"This module isn't activated in Xposed or you didn't do a reboot after activating it!"</string>
+    <string name="pref_attention_title">Attention</string>
+    <string name="pref_attention_version_mismatch">"Apparently you didn't do a reboot after updating this app. Please do a reboot now to avoid any unexpected behaviour."</string>
+    <string name="pref_buy_pro_summary">Support further development, allows customizing advanced options</string>
+    <string name="pref_buy_pro_title">Upgrade to Pro</string>
+    <string name="pref_debug_off">Xposed Debug Logs disabled</string>
+    <string name="pref_debug_on">Xposed Debug Logs enabled</string>
+    <string name="pref_debug_title">Enable debug log</string>
+    <string name="pref_experimental">Experimental Options (Pro)</string>
+    <string name="pref_freeload_summary">Enable Pro features without actually purchasing the Pro version (with the exception of experimental features)</string>
+    <string name="pref_freeload_title">Freeload</string>
+    <string name="pref_launcher_off">App Drawer launcher icon hidden</string>
+    <string name="pref_launcher_on">App Drawer launcher icon visible</string>
+    <string name="pref_launcher_title">Show launcher icon</string>
+    <string name="pref_options_pro">Advanced Options (Pro)</string>
+    <string name="pref_other">Other</string>
+    <string name="pref_screen_off_description">The module will wake up your device and show the shutdown dialog (by default only when the screen is on).</string>
+    <string name="pref_screen_off_title">Show dialog when screen is off</string>
+    <string name="pref_shutdown_button_description">Add a button to the shutdown dialog to power off the phone immediately</string>
+    <string name="pref_shutdown_button_title">Shutdown button</string>
+    <string name="pref_test_summary">Click to show a preview of the shutdown dialog.</string>
+    <string name="pref_test_title">Test dialog</string>
+    <string name="pref_time_choice_0">0 (disabled)</string>
+    <string name="pref_time_choice_10">10 seconds</string>
+    <string name="pref_time_choice_15">15 seconds</string>
+    <string name="pref_time_choice_20">20 seconds</string>
+    <string name="pref_time_choice_30">30 seconds</string>
+    <string name="pref_time_choice_5">5 seconds</string>
+    <string name="pref_time_choice_60">60 seconds</string>
+    <string name="pref_time_description">"Choose the countdown time. It's advised to use less than 20 seconds. 
+Recommendation: 10 seconds"</string>
+    <string name="pref_time_title">Time</string>
+    <string name="pref_translation_description">"Use internal translations from your ROM for the shutdown dialog. Text will be in your device's language. Might not work with some non-AOSP ROMs."</string>
+    <string name="pref_translation_title">Use translated strings</string>
+    <string name="toast_billing_not_ready">Google billing initialization failed.</string>
+    <string name="toast_freeloaded">Please consider to purchase pro in the future :)</string>
+    <string name="toast_no_time_set">Dialog disabled (0 seconds)</string>
+    <string name="toast_power_off_pressed">Test Dialog: Your device would shut down now</string>
+    <string name="toast_purchase_restored">Previous purchase restored!</string>
+    <string name="toast_purchased">Thank you for your purchase!</string>
+    <string name="warn_module_not_active">Xposed module not activated</string>
+    <string name="warn_version_mismatch">Module updated - reboot required</string>
+    <string name="warn_xposed_hook_failed">incompatible ROM detected</string>
+    <string name="warn_xposed_installer_missing">@string/d_no_xposed</string>
+    <string name="xposed_description">Shows a countdown before shutting down your device on critical battery so you have time to connect your charger.</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timeArray">
+        <item>@string/pref_time_choice_0</item>
+        <item>@string/pref_time_choice_5</item>
+        <item>@string/pref_time_choice_10</item>
+        <item>@string/pref_time_choice_15</item>
+        <item>@string/pref_time_choice_20</item>
+        <item>@string/pref_time_choice_30</item>
+        <item>@string/pref_time_choice_60</item>
+    </string-array>
+    <string-array name="timeValues">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+</resources>

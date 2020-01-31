@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:icon="@drawable/ic_alert" android:title="@string/pref_attention_title" android:key="pref_attention" android:summary="null" />
+    <Preference android:title="@string/app_name" android:key="pref_about" android:summary="@string/pref_about_summary">
+        <intent android:action="android.intent.action.VIEW" android:data="https://play.google.com/store/apps/developer?id=tonyp" />
+    </Preference>
+    <Preference android:title="@string/pref_about_gplus_title" android:key="pref_gplus" android:summary="@string/pref_about_gplus_summary">
+        <intent android:action="android.intent.action.VIEW" android:data="http://plus.google.com/+thetonyp" />
+    </Preference>
+    <Preference android:title="@string/pref_buy_pro_title" android:key="pref_buy_pro" android:summary="@string/pref_buy_pro_summary" />
+    <PreferenceCategory android:title="@string/pref_options_pro">
+        <ListPreference android:entries="@array/timeArray" android:title="@string/pref_time_title" android:key="pref_time" android:summary="@string/pref_time_description" android:defaultValue="5" android:entryValues="@array/timeValues" />
+        <CheckBoxPreference android:title="@string/pref_screen_off_title" android:key="pref_screen_off" android:summary="@string/pref_screen_off_description" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/pref_translation_title" android:key="pref_translation" android:summary="@string/pref_translation_description" android:defaultValue="false" />
+        <Preference android:title="@string/pref_test_title" android:key="pref_test_dialog" android:summary="@string/pref_test_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_experimental" android:key="pref_category_exp">
+        <PreferenceScreen android:persistent="false" android:title="Experimental Options" android:key="pref_sub_experimental" android:summary="Requires a purchased Pro version until the features graduate out of experimental status">
+            <Preference android:icon="@drawable/ic_alert" android:persistent="false" android:selectable="false" android:summary="Experimental options are still in development and may contain bugs.\nPurchased pro version required to activate" />
+            <Preference android:persistent="false" android:title="Information" android:selectable="false" android:summary="The experimental options are subject to change and might evolve or disappear based on users feedback. Eventually they will graduate out of experimental status and be accessible to everyone. They're tested with AOSP so some options might not be compatible with custom or stock ROMs. \nPlease post your feedback at G+ or XDA!" />
+            <Preference android:persistent="false" android:title="Google Plus" android:summary="Click to post feedback at G+">
+                <intent android:action="android.intent.action.VIEW" android:data="https://plus.google.com/+thetonyp/posts/FccF38Ch7Wi" />
+            </Preference>
+            <Preference android:persistent="false" android:title="XDA Thread" android:summary="Click to open the Battery Shutdown Manager support thread">
+                <intent android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/showthread.php?t=3105014" />
+            </Preference>
+            <PreferenceCategory android:title="Disable Battery Shutdown">
+                <CheckBoxPreference android:title="Disable Shutdown" android:key="pref_disable_shutdown" android:summary="Completely disables critical battery shutdown" android:defaultValue="false" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_other" android:key="pref_category_other">
+        <CheckBoxPreference android:title="@string/pref_debug_title" android:key="pref_debug" android:defaultValue="false" android:summaryOn="@string/pref_debug_on" android:summaryOff="@string/pref_debug_off" />
+        <CheckBoxPreference android:title="@string/pref_launcher_title" android:key="pref_launcher" android:defaultValue="true" android:summaryOn="@string/pref_launcher_on" android:summaryOff="@string/pref_launcher_off" />
+        <CheckBoxPreference android:title="@string/pref_freeload_title" android:key="pref_freeload" android:summary="@string/pref_freeload_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>
